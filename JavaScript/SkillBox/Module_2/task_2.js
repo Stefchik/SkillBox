@@ -1,0 +1,15 @@
+function fraction(a, b, n){
+    fractional_part1 = Math.floor(a % 1 * Math.pow(10, n))
+    fractional_part2 = Math.floor(b % 1 * Math.pow(10, n))
+    console.log('Дробная часть первого числа:', fractional_part1)
+    console.log('Дробная часть второго числа:', fractional_part2)
+    console.log(fractional_part1 > fractional_part2)
+    console.log(fractional_part1 < fractional_part2)
+    console.log(fractional_part1 >= fractional_part2)
+    console.log(fractional_part1 >= fractional_part2)
+    console.log(fractional_part1 === fractional_part2)
+    console.log(fractional_part1 != fractional_part2)
+}
+fraction(13.123456789, 2.123, 5)
+fraction(13.890123, 2.891564, 2)
+fraction(13.890123, 2.891564, 3)

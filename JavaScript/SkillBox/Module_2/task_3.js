@@ -1,0 +1,18 @@
+function random(m, n){
+    let range = Math.abs(m - n)
+    let numberinRange1 = Math.round(Math.random() * range)
+    let numberinRange2 = Math.round(Math.random() * range)
+    let min = Math.min(n, m)
+    console.log(min + numberinRange1)
+    console.log(min + numberinRange2)
+    console.log(numberinRange1 > numberinRange2)
+    console.log(numberinRange1 < numberinRange2)
+    console.log(numberinRange1 >= numberinRange2)
+    console.log(numberinRange1 >= numberinRange2)
+    console.log(numberinRange1 === numberinRange2)
+    console.log(numberinRange1 != numberinRange2)
+}
+random(0, 100)
+random(2, 5)
+random(100, -5)
+random(-3, -10)
