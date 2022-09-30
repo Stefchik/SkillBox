@@ -1,7 +1,7 @@
 function calculate(cartTotal, numberItemsCart, promoCode = null) {
     if (promoCode === 'ДАРИМ300') {
         if (cartTotal < 300) {
-            cartTotal = 0
+            return 0
         } else
             cartTotal -= 300
     }
@@ -16,4 +16,4 @@ function calculate(cartTotal, numberItemsCart, promoCode = null) {
     }
     return cartTotal
 }
-console.log(calculate(250, 20,'ДАРИМ300'))
+console.log(calculate(200, 9,'ДАРИМ300'))
