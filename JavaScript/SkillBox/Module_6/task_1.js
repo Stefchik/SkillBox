@@ -3,6 +3,7 @@ let objects = [
     { name: 'Иван', surname: 'Иванов'},
     { name: 'Пётр', surname: 'Петров'}
     ]
+// фунция очень похожа на скопированную из интернета. 0 баллов. Отчислен
 function filter (objects, key, value) {
     let newObjects = []
     for (let i = 0; i < objects.length; i++) {
